@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="Add Item To List">
+  <remv1:Action Name="Add Item To List" Command="powershell.exe">
+    <remv1:ConstantParameter Name="Script" Switch="-file AddItemToList.ps1" Order="1" />
+    <remv1:StringParameter Name="Auto Import File Name (must match filename configured in list auto-update settings)" Switch="" Order="2" />
+    <remv1:StringParameter Name="Item To Add" Switch="" Order="3" />
+  </remv1:Action>
+</remv1:Remediation-Plugin>
