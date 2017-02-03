@@ -1,3 +1,8 @@
+LogRhythm Threat Research
+Remote File Extraction SmartResponse
+Matt Willems | @MattWillems | matt.willems@logrhythm.com
+v0.1 -- April, 2016
+
 # SRP-AddItemToList
 Accepts fields from SmartResponse and writes them out to a text file which is consumed by the LogRhythm Job Manager and added to a LogRhythm List (configured in the List Manager).
   
